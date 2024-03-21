@@ -1,0 +1,31 @@
+#shubham{height: 60px;
+  width:350px;
+  position: absolute;top:100px;
+outline: none;
+background-color: black;
+border:2px solid black;}
+input{color:white;
+  font-size: 50px;
+  font-family:Arial;
+  font-weight:bold;}
+
+  
+
+
+button{width:80px;
+height: 80px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  border-radius: 80px;
+  font-size:30PX;
+  background-color: #313131a4;
+  color:white;
+  border-color:#000000a4;
+}
+.zero{width:170px;}
+.orange{background-color: orange;
+border-color: orange;
+color:white;}
+.grey{background-color:#bfbfbfbc;
+color:black;}
+body{background-color: black;

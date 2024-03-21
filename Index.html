@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <h1> calculator</h1>
+<br><br><br><br><br><br><br><br>
+<br><br><br>
+<input type="text" id="shubham" disabled="text">
+  <div class="container">
+    <div class="row">
+   <button class="grey" onclick="erase()">AC</button>
+   <button class="grey" onclick="delvalue()">DEL</button>
+   <button class="grey"onclick="insertvalue('%')" >%</button> 
+  <button class="orange" onclick="insertvalue('/')">/</button>
+    <br>  
+  <button class="btn" onclick="insertvalue('7')">7</button>
+    <button class="btn" onclick="insertvalue('8')">8</button>
+ <button class="btn" onclick="insertvalue('9')">9</button>
+ <button class="orange"onclick="insertvalue('*')">×</button>
+   <br>
+   <button class="btn"onclick="insertvalue('4')">4</button>
+ <button class="btn"onclick="insertvalue('5')">5</button>
+ <button class="btn"onclick="insertvalue('6')">6</button>
+ <button class="orange"onclick="insertvalue('-')">-</button>
+ <br>
+ <button class="btn"onclick="insertvalue('1')">1</button>
+ <button class="btn"onclick="insertvalue('2')">2</button>
+ <button class="btn"onclick="insertvalue('3')">3</button>
+ <button class="orange" onclick="insertvalue('+')">+</button>
+ <br>
+ 
+ <button class="zero"onclick="insertvalue('0')">0</button>
+ <button class="btn"onclick="insertvalue('.')">.</button>
+ 
+ <button class="orange" onclick="calculate()">=</button>   
+  </div>
+  </div>
+</form>  
+<style>
+
+
+</style>
+
+<script src="main.js"></script>
+  
+
+</body>
+</html>
